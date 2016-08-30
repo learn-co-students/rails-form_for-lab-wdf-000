@@ -1,0 +1,4 @@
+<h1>School Classes</h1>
+<% @school_classes.each do |class_| %>
+  <h3><%= class_.title + ": Room #" + class_.room_number.to_s %></h3>
+<% end %>

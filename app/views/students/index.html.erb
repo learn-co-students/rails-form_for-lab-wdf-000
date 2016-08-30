@@ -1,0 +1,4 @@
+<h1>Students</h1>
+<% @students.each do |student| %>
+  <h3><%= student.to_s if !student.first_name.nil? %></h3>
+<% end %>
